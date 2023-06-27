@@ -10,6 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
+  
 }
 
 /* Link Styles */
@@ -132,7 +133,7 @@ header .profile-image:hover {
 }
 
 .section-img:hover {
-  transform: scale(1.5);
+  transform: scale(1.7, 1.3);
 }
 
 ul.skills {
@@ -210,7 +211,9 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 762px) {
-
+  body {
+    font-size: 1.3rem;
+  }
   .flex, .card {
     display: -ms-flexbox;
     /* TWEENER - IE 10 */
@@ -269,7 +272,7 @@ a.social:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 500px;
+    max-width: 30%px;
   }
 
   footer {
