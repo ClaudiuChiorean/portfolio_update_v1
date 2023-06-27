@@ -119,6 +119,9 @@ header .profile-image:hover {
 
 }
 
+#hobbies-title  {
+  font-size: 2rem;
+}
 .section-img {
 
   max-width: 259px;
